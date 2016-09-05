@@ -30,13 +30,13 @@ ex:https://github.com/Muchun-Yen/Driving-Wheel-Hub-Motor-with-Arduino/blob/maste
 
 ###**3.Executing ROS test**###
 
-**3.1 Open Terminator key **
+**3.1 Open Terminator key**
 ```
 $ test.launch
 ```
 **3.2 Check is there any error about the rosserial.**
 
-**3.3 Change baudrate and test again	**
+**3.3 Change baudrate and test again**
 ```
     		<param name="port" value="/dev/ttyACM1"/>
     		<param name="baud" value="1000000"/>
@@ -47,7 +47,7 @@ $ test.launch
 cp ~/catkin_ws/src/rosserial/rosserial_python/nodes/serial_node.py ~/catkin_ws/src/rosserial/rosserial_python/nodes/serial_node1.py 
 ```
 	
-**4.2.modified the test launch (ex. test2boards.launch)
+**4.2.modified the test launch (ex. test2boards.launch)**
 ```
 <?xml version="1.0"?>
 
